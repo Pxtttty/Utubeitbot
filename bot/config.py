@@ -7,7 +7,9 @@ class Config:
 
     SESSION_NAME = ":memory:"
 
-    API_ID = int(os.environ.get("API_ID"))
+    api_id_str = os.environ.get("9472424")
+    API_ID = int(api_id_str) if api_id_str is not None else 0  # Replace 0 with a suitable default value
+
 
     API_HASH = os.environ.get("API_HASH")
 
