@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/oVo-HxBots/Utubeitbot?&style=flat-square&logo=github)](https://github.com/oVo-HxBots/Utubeitbot/stargazers)
 
 #### [Render Support Added](#render)
-#### ~~[Koyeb Support Discontinued](#koyeb)~~
+#### [Koyeb Support Added](#koyeb)
 
 > Simple [Telegram Bot](https://core.telegram.org/bots "Telegram Bots") to Upload videos to [Youtube](https://youtube.com "YouTube") written in Python3.
 
@@ -61,6 +61,9 @@ $ source venv/bin/activate
 - `CLIENT_ID`(Required) - Your google client id.
 - `CLIENT_SECRET`(Required) - Your google client secret.
 - `BOT_OWNER`(Required) - Telegram id of bot owner.
+- `SUPPORT_CHAT_LINK`(Required) - Group/Channel Link Eg:- https://t.me/HxSupport.
+- `DB_URL`(Required) - Optional If You Don't Want It.
+- `DB_NAME`(Optional) - Mongo Database Name.
 - `AUTH_USERS`(optional) - Telegram id's of authorised users, separated by `,`.
 - `VIDEO_DESCRIPTION`(optional) - Any default description to be aded to the video.
 - `VIDEO_CATEGORY`(optional) - YouTube's video category id. If not specified or specified id is invalid, category id will be selected randomly.
@@ -152,13 +155,18 @@ You can contact me [@hxSupport](https://telegram.dog/hxSupport "hxSupport").
 
 ### Commands
 ```
-upgrade - Upgrade to No Limits
-start - check I'm alive
-login - login
-help - for help
-upload - replay with media to upload
-authorise - + your code [4/4wEqfW.......
+start - Check I'm Alive Or Dead
+login - Login Into Account
+help - Incase U Need Help
+upload - Replay To Video
+authorise - + Your Code [4/9OwEqfW.......]
 save_auth_data - to restore your authorize
+upgrade - Upgrade to No Limits
+update - Check New Updates
+status - Check Bot's Status
+broadcast - Only Admins ⚠️ 
+restart - Only Admins ⚠️
+users - Only Admins ⚠️
 ```
 
 ### License
